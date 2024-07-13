@@ -16,7 +16,7 @@ topic = 'TempSensor'
 client_id = 'Producer'
 mqtt_client = mqtt.Client()
 mqtt_client.connect(mqtt_broker)
-
+_
 
 def run_publish(topic):
     while True:
